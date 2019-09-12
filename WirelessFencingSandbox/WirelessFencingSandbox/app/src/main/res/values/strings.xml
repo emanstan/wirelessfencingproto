@@ -1,0 +1,50 @@
+<resources>
+    <!-- MainActivity -->
+    <string name="app_name">WirelessFencingSandbox</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="log_default">logs will appear here ...\n</string>
+    <string name="connect">Connect</string>
+    <string name="ready_to_connect">Ready to connect players.</string>
+    <string name="request_bt_adapter_fail">Your device does not support Bluetooth.</string>
+    <string name="request_bt_enable_fail">Failed to enable Bluetooth. Please enable manually and try again.</string>
+    <string name="request_error">Problem with connection. Halt!</string>
+    <string name="red_connect_invalid">Red player is not connected</string>
+    <string name="red_connecting">Connecting Red player ...</string>
+    <string name="red_connect_valid">Red player connected</string>
+    <string name="red_win">Red player wins!</string>
+    <string name="green_connect_invalid">Green player is not connected</string>
+    <string name="green_connecting">Connecting Green player ...</string>
+    <string name="green_connect_valid">Green player connected</string>
+    <string name="green_win">Green player wins!</string>
+    <string name="start">Start Match</string>
+    <string name="stop">Stop Match</string>
+    <string name="halt">Halt</string>
+    <string name="resume">Resume</string>
+    <string name="match_invalid">Not ready to start match. Need red and green participants connected.</string>
+    <string name="match_draw">Draw. Overtime!</string>
+    <string name="match_priority_red">Priority goes to Red.</string>
+    <string name="match_priority_green">Priority goes to Green.</string>
+
+    <!-- MainMenu -->
+    <string name="action_match_info">Epee Match</string>
+    <string name="action_match_condition_type">Elimination</string>
+    <string name="action_show_log">Show Log</string>
+    <string name="action_export_log">Export Log</string>
+    <string name="action_self_test">Self Test</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">Scanning for devices ...</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!--  NumberDialogActivity -->
+    <string name="symbol_plus">+</string>
+    <string name="symbol_minus">-</string>
+    <string name="set_value">Set</string>
+</resources>

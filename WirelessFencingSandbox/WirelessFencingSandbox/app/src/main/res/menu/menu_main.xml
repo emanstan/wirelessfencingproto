@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.stanfield.eric.wirelessfencingsandbox.MainActivity">
+    <item
+        android:id="@+id/menuMatchSummary"
+        android:orderInCategory="10"
+        android:title="@string/action_match_info"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuMatchConditionType"
+        android:orderInCategory="20"
+        android:title="@string/action_match_condition_type"
+        android:checkable="true" />
+    <item
+        android:id="@+id/menuShowLog"
+        android:orderInCategory="30"
+        android:title="@string/action_show_log"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuExportLog"
+        android:orderInCategory="40"
+        android:title="@string/action_export_log" />
+    <item
+        android:id="@+id/menuSelfTest"
+        android:orderInCategory="50"
+        android:title="@string/action_self_test" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
