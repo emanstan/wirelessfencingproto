@@ -3,11 +3,11 @@ Wireless Fencing System (the sport, not posts and pickets)
 
 This represents work on a prototype that was done 3 years ago. Since then I have started redesigning the system and future versions are envisioned with the following changes in mind:
   
-  ~ replacing the Bluetooth with Wifi as it offers a better foundation for secure and robust communications
-  ~ utilizing HTTPS over a local LAN for clients
-  ~ device registration
-  ~ management console
-  ~ increasing the scope to cover more aspects of the fencer's efforts including tournaments, queuing for strips, profiles, etc.
+  * replacing the Bluetooth with Wifi as it offers a better foundation for secure and robust communications
+  * utilizing HTTPS over a local LAN for clients
+  * device registration
+  * management console
+  * increasing the scope to cover more aspects of the fencer's efforts including tournaments, queuing for strips, profiles, etc.
 
 ## client
 WirelessFencingClient is code and configuration on a raspberry pi device interfacing with standard fencing gear (swords, cables, etc.) running python. It connects to and communicates time sync, hit, and grounding data with a scorebox server over bluetooth. The raspberry pi is loaded with raspbian and includes the following environment setup
