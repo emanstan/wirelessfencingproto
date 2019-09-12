@@ -5,7 +5,8 @@ This represents work on a prototype that was done up to 2016. Since then I have 
   
   * replacing the Bluetooth with Wifi as it offers a better foundation for secure and robust communications
   * utilizing HTTPS over a local LAN for clients
-  * device registration
+  * token-based authentication
+  * device and user registration
   * management console
   * increasing the scope to cover more aspects of the fencer's efforts including tournaments, queuing for strips, profiles, etc.
 
