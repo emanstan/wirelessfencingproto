@@ -13,6 +13,7 @@ This represents work on a prototype that was done 3 years ago. Since then I have
 WirelessFencingClient is code and configuration on a raspberry pi device interfacing with standard fencing gear (swords, cables, etc.) running python. It connects to and communicates time sync, hit, and grounding data with a scorebox server over bluetooth. The raspberry pi is loaded with raspbian and includes the following environment setup
 
 ### installation
+```bash
 sudo apt-get install --no-install-recommends bluetooth
 sudo service bluetooth status
 sudo invoke-rc.d bluetooth restart
@@ -23,11 +24,13 @@ sudo nano /etc/bluetooth/main.conf <change to DisablePlugins=pnat>
 sudo nano /etc/bluetooth/main.conf <change to Name=WirelessFencingRed>
 sudo nano /etc/ntp.conf <change to 2.android.pool.ntp.org>
 bluez-simple-agent hci0 23:E4:87:4C:B3:A1
+```
 
 ### startup
+```bash
 (hciconfig hci0 name WirelessFencingRed
 hciconfig hci0 piscan ) &
-'''
+```
 
 ## server
 WirelessFencingSandbox is the prototype of a wireless fencing scorebox app. It requests and establishes connections to player devices as well, configures match details, and processes client data as it comes in.
