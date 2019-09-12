@@ -1,7 +1,7 @@
 # wirelessfencingproto
 Wireless Fencing System (the sport, not posts and pickets)
 
-This represents work on a prototype that was done 3 years ago. Since then I have started redesigning the system and future versions are envisioned with the following changes in mind:
+This represents work on a prototype that was done up to 2016. Since then I have started redesigning the system and future versions are envisioned with the following changes in mind:
   
   * replacing the Bluetooth with Wifi as it offers a better foundation for secure and robust communications
   * utilizing HTTPS over a local LAN for clients
